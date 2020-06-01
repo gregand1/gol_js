@@ -2,8 +2,8 @@
 
 
 //board size
-var X=100;
-var Y=100;
+var X=70;
+var Y=30;
 
 //state text 
 var LIVE='1'
