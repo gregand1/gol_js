@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="gol.css">
+</head>
+<body>
+    <div id='controls'>
+    <div  onclick="randomize_table()" id="bt_randomize" class="bt">randomize</div>
+    <div  onclick="toggle_run()" id="bt_run" class="bt">run</div>
+    </div>
+    <br>
+game board:<br>
+<table id="tbl"></table>
+
+<p>neighbor count:</p>
+
+<table id="nbr"></table>
+
+<script src="gol_vars.js"></script>
+<script src="gol_functions.js"></script>
+<script src="gol_actions.js"></script>
+</body>
+</html>
