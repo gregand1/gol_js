@@ -1,0 +1,43 @@
+
+body{
+    background-color: rgb(230, 230, 230);
+    font-family: 'Abel', sans-serif;
+}
+.bt{
+    margin:20;
+    padding:20;
+    font-size: 30px;    
+    background-color:darkgray;
+    color:cornsilk;
+    max-width: fit-content;
+    min-width: 160px;;
+    text-align: center;;
+   
+}
+
+#bt_randomize{float:left;}
+#bt_run{margin-left: 250px;}
+#controls{
+height:fit-content;
+width:100%;
+}
+
+table{
+    background-color: rgb(47, 77, 78);
+}
+td{
+    background-color: rgb(69, 148, 168);
+
+    width:20px;
+    height:20px;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+ -khtml-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+    
+}
